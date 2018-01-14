@@ -17,6 +17,8 @@ It's designed to be used within DI containers (no statics!)
 
 ## How do we use it?
 
+You can get it from [NuGet](https://www.nuget.org/packages/Audiu.YetAnotherStatsDClient). Just install using your favourite package manager (shout out to the brilliant [Paket](https://fsprojects.github.io/Paket/) package manager!)
+
 This is a quick example of our setup using the wonderful [SimpleInjector](https://simpleinjector.org/index.html) library 
 
 ```csharp
