@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Audiu.YetAnotherStatsDClient</id>
+    <version>$version$</version>
+    <title>YetAnotherStatsDClient</title>
+    <authors>Mike Goodfellow</authors>
+    <owners>Audiu</owners>
+    <licenseUrl>https://github.com/mgoodfellow/YetAnotherStatsDClient/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mgoodfellow/YetAnotherStatsDClient</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>YetAnotherStatsDClient</description>
+    <releaseNotes>Initial relase</releaseNotes>
+    <copyright>Copyright Audiu 2018</copyright>
+    <tags>statsd statistics graphite</tags>
+  </metadata>
+</package>
