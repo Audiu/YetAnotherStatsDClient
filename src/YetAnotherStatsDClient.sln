@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnotherStatsDClient", "YetAnotherStatsDClient\YetAnotherStatsDClient.csproj", "{4F074A58-E87D-4660-88F8-A8E1688A893C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF091915-E3A7-4577-B39E-4EAEB3CCB990}"
 	ProjectSection(SolutionItems) = preProject
 		..\LICENSE = ..\LICENSE
 		..\README.md = ..\README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnotherStatsDClient", "YetAnotherStatsDClient\YetAnotherStatsDClient.csproj", "{79FED9C2-9B40-47C8-9253-88D33A175DAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4F074A58-E87D-4660-88F8-A8E1688A893C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F074A58-E87D-4660-88F8-A8E1688A893C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F074A58-E87D-4660-88F8-A8E1688A893C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F074A58-E87D-4660-88F8-A8E1688A893C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79FED9C2-9B40-47C8-9253-88D33A175DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FED9C2-9B40-47C8-9253-88D33A175DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FED9C2-9B40-47C8-9253-88D33A175DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FED9C2-9B40-47C8-9253-88D33A175DAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
