@@ -40,9 +40,24 @@ namespace YetAnotherStatsDClient
             SendMetric($"{_statsConfig.Prefix}.{metric}:{value}|c");
         }
 
-        public void Gauge(string metric, double value)
+        public void Gauge(string metric, double value, bool changeValue = false)
         {
-            SendMetric($"{_statsConfig.Prefix}.{metric}:{value}|g");
+            if (changeValue)
+            {
+                SendMetric(value > 0
+                    ? $"{_statsConfig.Prefix}.{metric}:+{value}|g"
+                    : $"{_statsConfig.Prefix}.{metric}:{value}|g");
+            }
+            else
+            {
+                // https://github.com/etsy/statsd/blob/master/docs/metric_types.md - You need to reset negative values to 0 first
+                if (value < 0)
+                {
+                    SendMetric($"{_statsConfig.Prefix}.{metric}:0|g");
+                }
+
+                SendMetric($"{_statsConfig.Prefix}.{metric}:{value}|g");
+            }
         }
 
         public void Timing(string metric, int value)

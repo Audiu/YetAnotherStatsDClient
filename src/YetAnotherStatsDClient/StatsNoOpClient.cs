@@ -6,7 +6,7 @@
         {
         }
 
-        public void Gauge(string metric, double value)
+        public void Gauge(string metric, double value, bool changeValue = false)
         {
         }
 
